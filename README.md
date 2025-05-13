@@ -48,9 +48,13 @@ Todo el trabajo gira en torno al archivo T1_C31049.c, que contiene el código fu
 identificar patrones diagonales de manera eficiente y clara.
 
 ## EJEMPLOS
-## Ejemrplo 1
+
 <img width="541" alt="Image" src="https://github.com/user-attachments/assets/3fbba307-6e86-4bfe-b9fa-a9e463becf2e" />
-## Ejemrplo 2
+
+## Ejemplo 2
+
 <img width="447" alt="Image" src="https://github.com/user-attachments/assets/a784879b-1383-452f-b8c3-63afb2c6b44f" />
-## Ejemrplo 3
+
+## Ejemplo 3
+
 <img width="460" alt="Image" src="https://github.com/user-attachments/assets/3b890374-5def-42d5-bb5b-a5f11ddb6f1b" />
