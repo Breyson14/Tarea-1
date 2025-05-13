@@ -2,7 +2,7 @@
 # TAREA 1 - Contador de 1s en diagonales secundarias ascendente
 
 Este programa en lenguaje C está diseñado para encontrar la secuencia más larga de 1s consecutivos dentro de una matriz cuadrada que contiene únicamente
-ceros y unos. El recorrido se hace siguiendo las diagonales que van hacia arriba a la izquierda (↑↙). 
+ceros y unos. El recorrido se hace siguiendo las diagonales que van hacia arriba a la izquierda. 
 Además, si una secuencia de 1s continúa en la siguiente diagonal sin interrupción, también se incluye en el mismo conteo.
 
 Cuando se ejecuta el programa, lo primero que hace es leer un archivo de texto llamado matriz.txt, que debe estar en la misma carpeta que el código fuente. 
@@ -16,7 +16,7 @@ El programa empieza incluyendo las librerías necesarias (stdio.h y stdlib.h) y 
 
 Lo primero que hace el código es abrir el archivo matriz.txt en modo lectura. Si no se puede abrir, muestra un mensaje de error y termina el programa. Si el archivo se abre bien, entra en un ciclo donde lee cada línea con fgets. Luego, usando sscanf, va extrayendo los números de la línea y los guarda en la matriz. En ese mismo paso verifica que todos los valores sean 0 o 1, y también que todas las filas tengan la misma cantidad de columnas. Al final de la lectura, el programa comprueba que la matriz sea cuadrada.
 
-Después de validar la matriz, el código la imprime en pantalla para que el usuario pueda ver qué se cargó. Luego arranca la parte central del programa: buscar la secuencia más larga de 1s en las diagonales que van de abajo a la derecha hacia arriba a la izquierda (↖). Para eso, se usa un bucle for con una variable k que recorre todas las diagonales posibles en esa dirección. Dependiendo del valor de k, se calculan las posiciones iniciales (i y j) desde donde arranca cada recorrido diagonal.
+Después de validar la matriz, el código la imprime en pantalla para que el usuario pueda ver qué se cargó. Luego arranca la parte central del programa: buscar la secuencia más larga de 1s en las diagonales que van de abajo a la derecha hacia arriba a la izquierda . Para eso, se usa un bucle for con una variable k que recorre todas las diagonales posibles en esa dirección. Dependiendo del valor de k, se calculan las posiciones iniciales (i y j) desde donde arranca cada recorrido diagonal.
 
 Luego se entra en un while que va recorriendo la diagonal usando i++ y j--. En cada paso, si el valor de la matriz es 1, se suma al contador. Si aparece un 0, el contador se reinicia. Mientras tanto, se guarda el valor más alto que haya alcanzado ese contador en la variable max, que representa la secuencia más larga encontrada. Al finalizar todos los recorridos, el programa imprime en pantalla ese número máximo.
 
