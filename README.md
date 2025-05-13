@@ -34,6 +34,8 @@ Es necesario que el archivo sea nombrado como matriz.txt, todo en minuscula porq
 
 ## EJEMPLOS
 
+## Ejemplo 1
+
 <img width="541" alt="Image" src="https://github.com/user-attachments/assets/3fbba307-6e86-4bfe-b9fa-a9e463becf2e" />
 
 ## Ejemplo 2
